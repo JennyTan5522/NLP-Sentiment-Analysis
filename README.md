@@ -17,12 +17,32 @@ labelled consists of 126 rows.
 
 Proposed Frameworks:
 1. Machine Learning
+   - Individual Models: Using 8 classifiers: SVM, LR, Multinomial Naive Bayes (MNB), Decision Tree (DT), KNN, Random Forest (RF), Gradient Boosting Classifiers, Extremely Randomized Trees
+   - Ensemble Models: Voting and Stacking perform on (SVC, LR, MNB and DT with LR) and (SVC, LR, MNB and RF with LR); Bagging (DT, RF)
    ![image](https://github.com/user-attachments/assets/26c1392e-21fe-49a7-811c-69563b80afed)
 
 3. Deep Learning
+   - Individual Models: CNN, BiLSTM, RNN, LSTM, GRU
+   - Ensemble Models: Stacked RNN-LSTM-GRU with SVM, Stacked RNN-LSTM-GRU with LR
+   - Hybrid: CNN-BiLSTM
    ![image](https://github.com/user-attachments/assets/a18d0df2-93c3-4483-9ce4-a80874a10244)
 
+Results
+1. Generat Tweets as Training and Testing
+   ![image](https://github.com/user-attachments/assets/87971d8c-b39a-4381-8b8b-81a7fb644501)
+   ![image](https://github.com/user-attachments/assets/4584127b-65ac-4f55-9483-79f77951f34b)
 
-Eight classifiers were employed as base learners to evaluate sentiment analysis classification, namely Support Vector Classification (SVC), Logistic Regression, Multinomial Naive Bayes, K-Nearest Neighbor (KNN), Decision Tree, Random Forest, Gradient Boosting Classifiers, and Extremely Randomized Trees. Subsequently, ensemble classifiers such as Voting, Bagging, and Stacking were conducted in this experiment. Lastly, deep learning models were also carried out using CNN, RNN, LSTM, Bi-LSTM, and GRU. The hybrid ensemble and the deep learning model were also experimented with.
+3. Covid Dataset Using Individual and Ensemble Model
+   ![image](https://github.com/user-attachments/assets/d9b79173-df14-486a-b626-5ea8418e333d)
+   ![image](https://github.com/user-attachments/assets/6a178a5c-76f8-473f-a670-afdb463e4fed)
 
-The deep learning model with the best performance is the Stacked RNN-LSTM-GRU with SVM, while the regular machine learning model that performed the best based on the COVID-19 Tweets test data is the Ensemble Bagging model of Random Forest.
+   Deep Learning Model
+   ![image](https://github.com/user-attachments/assets/ffc33b3c-b813-40a9-b9ce-3fc285bee63f)
+   ![image](https://github.com/user-attachments/assets/bfac2261-62d6-4dae-b6b8-582d19151c7e)
+
+   Deep Learning Hybrid Model
+   ![image](https://github.com/user-attachments/assets/ed19c6ed-6c27-4ed2-9a82-ca3810aee4fe)
+   ![image](https://github.com/user-attachments/assets/1ecef24c-e10c-440b-9d39-fd54b0cdb2b3)
+
+
+Conclusion: Stacked RNN-LSTM-GRU with SVM has the best performance compared to the other two models on average
