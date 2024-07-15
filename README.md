@@ -19,12 +19,14 @@ Proposed Frameworks:
 1. Machine Learning
    - Individual Models: Using 8 classifiers: SVM, LR, Multinomial Naive Bayes (MNB), Decision Tree (DT), KNN, Random Forest (RF), Gradient Boosting Classifiers, Extremely Randomized Trees
    - Ensemble Models: Voting and Stacking perform on (SVC, LR, MNB and DT with LR) and (SVC, LR, MNB and RF with LR); Bagging (DT, RF)
+   
    ![image](https://github.com/user-attachments/assets/26c1392e-21fe-49a7-811c-69563b80afed)
 
 3. Deep Learning
    - Individual Models: CNN, BiLSTM, RNN, LSTM, GRU
    - Ensemble Models: Stacked RNN-LSTM-GRU with SVM, Stacked RNN-LSTM-GRU with LR
    - Hybrid: CNN-BiLSTM
+   
    ![image](https://github.com/user-attachments/assets/a18d0df2-93c3-4483-9ce4-a80874a10244)
 
 Results
