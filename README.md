@@ -48,12 +48,28 @@ Parameters:
 7. The parameter values of the Gradient Boosting Classifier are tuned as: random_state = 1, max_depth=3 , max_leaf_nodes=40
 8. The parameter values of the Extremely Randomized Trees Classifier are tuned as: random_state = 1, max_depth=80, max_leaf_nodes=100.
 
+------------------------------------------------------------------------------------------------------------------------------
+
 Results
 1. Generat Tweets as Training and Testing
    ![image](https://github.com/user-attachments/assets/87971d8c-b39a-4381-8b8b-81a7fb644501)
    ![image](https://github.com/user-attachments/assets/4584127b-65ac-4f55-9483-79f77951f34b)
 
-3. Covid Dataset Using Individual and Ensemble Model
+2. Covid Individual Model Testing Result
+
+   ![image](https://github.com/user-attachments/assets/987bd00e-9d45-4921-bd69-c70a3abcf1fe)
+
+   ![image](https://github.com/user-attachments/assets/3fc8e3ef-8ced-4c98-a71b-266ba4d8c16c)
+
+   ![image](https://github.com/user-attachments/assets/e4709bfd-9823-4dbd-b051-739a24347583)
+
+4. Iphone Individual Model Testing Result
+
+    ![image](https://github.com/user-attachments/assets/bf11b8de-9cb5-4965-be1f-908877f184a8)
+
+   ![image](https://github.com/user-attachments/assets/80a9bc3d-f1d6-4858-baf3-93cf8e0b3f36)
+
+6. Covid Dataset Using Individual and Ensemble Model
    ![image](https://github.com/user-attachments/assets/d9b79173-df14-486a-b626-5ea8418e333d)
    ![image](https://github.com/user-attachments/assets/6a178a5c-76f8-473f-a670-afdb463e4fed)
 
