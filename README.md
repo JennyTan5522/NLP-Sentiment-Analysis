@@ -36,6 +36,18 @@ Proposed Frameworks:
    
    ![image](https://github.com/user-attachments/assets/a18d0df2-93c3-4483-9ce4-a80874a10244)
 
+------------------------------------------------------------------------------------------------------------------------------
+
+Parameters:
+1. The parameter values of the SVC Classifier are tuned as : C=0.1, kernel= ‘linear’, random_state = 1
+2. The parameter values of the Logistic Regression Classifier are tuned as : multi_class= ‘multinomial’, random_state = 1, solver= ‘saga’
+3. The parameter values of the Multinomial Naive Bayes Classifier are tuned as : alpha =20
+4. The parameter values of the KNN Classifier are tuned as : n_neighbors=13
+5. The parameter values of the Decision Tree Classifier are tuned as: random_state =1, max_leaf_nodes=65, max_depth=100
+6. The parameter values of the Random Forest Classifier are tuned as: random_state = 1, max_leaf_nodes=65, max_depth=100
+7. The parameter values of the Gradient Boosting Classifier are tuned as: random_state = 1, max_depth=3 , max_leaf_nodes=40
+8. The parameter values of the Extremely Randomized Trees Classifier are tuned as: random_state = 1, max_depth=80, max_leaf_nodes=100.
+
 Results
 1. Generat Tweets as Training and Testing
    ![image](https://github.com/user-attachments/assets/87971d8c-b39a-4381-8b8b-81a7fb644501)
