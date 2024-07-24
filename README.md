@@ -18,8 +18,6 @@ labelled consists of 100 rows.
 labelled consists of 126 rows. Neutral labelled consists of 77 rows, positive labelled consists of 107 rows, negative
 labelled consists of 126 rows
 
-![image](https://github.com/user-attachments/assets/cfae150f-e900-47ec-aeb7-f1b208235674)
-
 ![image](https://github.com/user-attachments/assets/19e7566a-b2f4-4e54-ab6e-70067d9f9ece)
 
 ------------------------------------------------------------------------------------------------------------------------------
