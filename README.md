@@ -1,19 +1,28 @@
 About:
 - Sentiment analysis is one of the techniques that aims to classify textual data into positive, neutral, and negative labels. The study developed a predictive model that can be used in Natural Language Processing (NLP) to perform sentiment analysis predictions in various fields.  
-- This project works on sentiment analysis on Covid **Twitter** tweets and **iPhone** Twitter tweets. 
+- This project works on sentiment analysis on Covid **Twitter** tweets and **iPhone** Twitter tweets by training on **General Tweets* from Twitter.
+- Based on product review sentiment analysis, companies are able to understand the sentiment of the customers towards their products or services.
+- Covid review can be used to determine a human's emotional state and stability during the pandemic so that the government can determine the mental health of the people and take precautions if needed.
+- Purpose of using two datasets: To review how the models work in different data patterns and identify the most suitable sentiment classifier that can correctly classify the sentiment of a sentence in various fields.
 
-Purpose: 
-- Product review sentiment analysis, companies are able to understand the sentiment of the customers towards their products or services. Examine customer overall satisfication towards products and make improvements.
-- Covid review can be used to determine a human's emotional state and stability during the pandemic so that the government can determine the mental health of the people and take precautions if needed. 
+------------------------------------------------------------------------------------------------------------------------------
 
 Dataset Description:
-- Training dataset based on General Tweets that consists of both Twitter and iPhone tweets. The dataset consists of 27480 rows of training tweets with sentiment labels positive, neutral and negative. Neutral labelled consists of 11117 rows, positive labelled consists of 8582 rows, negative labelled consists of 7781 rows [https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset?select=train.csv].
+- Training dataset based on General Tweets that consists of both Twitter and iPhone tweets. The dataset consists of 27480 rows of training tweets with sentiment labels positive, neutral and negative. Neutral labelled consists of 11117 rows, positive labelled consists of 8582 rows, negative labelled consists of 7781 rows [https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset?select=train.csv]. Neutral labelled consists of 11117 rows, positive labelled consists of 8582 rows, negative labelled consists of 7781 rows.
+  
 - Testing dataset (Using web scrapping technique from Twitter [https://apify.com/quacker/twitter-scraper]):
   1. Covid Tweets: The dataset consists of 290 rows of testing tweets with sentiment labels positive, neutral and negative. Neutral labelled consists of 102 rows, positive labelled consists of 88 rows, negative 
+labelled consists of 100 rows. Neutral labelled consists of 102 rows, positive labelled consists of 88 rows, negative
 labelled consists of 100 rows.
   2. iPhone Tweets: The dataset consists of 310 rows of testing tweets with sentiment labels positive, neutral and negative. Neutral labelled consists of 77 rows, positive labelled consists of 107 rows, negative 
-labelled consists of 126 rows.
+labelled consists of 126 rows. Neutral labelled consists of 77 rows, positive labelled consists of 107 rows, negative
+labelled consists of 126 rows
+
 ![image](https://github.com/user-attachments/assets/cfae150f-e900-47ec-aeb7-f1b208235674)
+
+![image](https://github.com/user-attachments/assets/19e7566a-b2f4-4e54-ab6e-70067d9f9ece)
+
+------------------------------------------------------------------------------------------------------------------------------
 
 Proposed Frameworks:
 1. Machine Learning
