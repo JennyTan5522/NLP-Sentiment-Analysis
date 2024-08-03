@@ -94,10 +94,12 @@ Results
 
    Ensemble Model
    - Different meta-learners on training and validation data are evaluated only in terms of accuracy.
+   - Stacked RNN-LSTM-GRU with SVM model has better performance as compared to the Stacked RNN-LSTM-GRU with LR in terms of training set accuracy.
+   - When it comes to the performance of the models for the COVID-19 related Tweets test set, both models have the same accuracies of 59% but by considering the F1-score, the model using the LR meta-learner has a slightly higher F1-score for two classes which makes it slightly better than the SVM meta-learner. For the iPhone review Tweets test set, the stacked model that uses the SVM meta-learner has a 1% higher accuracy of 49% compared to the LR meta-learner.
+   - Stacked ensemble model performs better when SVM is used as its meta-learner. This is said so because SVM performs better when dealing with datasets of different patterns which is shown in the results of the models when performing prediction on the two test sets.
+   - SVM is efficient in word processing and for dealing with high dimensional contexts.
 
    ![image](https://github.com/user-attachments/assets/cf285a5e-56b7-4720-9afc-8414abffb69d)
-
-   - Stacked RNN-LSTM-GRU with SVM model has better performance as compared to the Stacked RNN-LSTM-GRU with LR in terms of training set accuracy.
 
    ![image](https://github.com/user-attachments/assets/8577305f-75dd-4997-b60a-67848bcacd39)
 
