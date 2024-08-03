@@ -56,6 +56,8 @@ Results
 
 2. Covid Individual Model Testing Result
    -  Extremely Randomized Trees is selected as the best individual sentiment classifier (Highest accuracy with the least training time)
+   -  Ensemble Voting model with SVC, Logistic Regression, Multinomial Naive Bayes and Decision Tree as the base learners and Logistic Regression as the meta-classifier has high training accuracy with an accuracy of 71.94%.
+   -  Although Stacking has a higher training accuracy, but from the overall testing accuracy performance and training time, it does not perform well. The results state that Voting has a higher testing accuracy with 62.00% as compared to Stacking with the accuracy of 60.00%, it increase overall performance by 2%.
 
    ![image](https://github.com/user-attachments/assets/987bd00e-9d45-4921-bd69-c70a3abcf1fe)
 
@@ -64,7 +66,7 @@ Results
    ![image](https://github.com/user-attachments/assets/e4709bfd-9823-4dbd-b051-739a24347583)
 
 4. Iphone Individual Model Testing Result
-   - The testing accuracy for all the models have a huge difference with the training accuracy. Mostly due to the unstructured and contains lots of noisy data as well as weak sentiment constraints, hence this makes machine difficult to analze and gain valuable pattern from the data, e.g. emoji ambiguity, uncertainty of word meaning, negation words.
+   - The testing accuracy for all the models have a huge difference with the training accuracy. Mostly due to the unstructured and contains lots of noisy data as well as weak sentiment constraints, hence this makes machine difficult to analze and gain valuable pattern from the data, e.g. emoji ambiguity, uncertainty of word meaning, negation words. 
 
     ![image](https://github.com/user-attachments/assets/bf11b8de-9cb5-4965-be1f-908877f184a8)
 
