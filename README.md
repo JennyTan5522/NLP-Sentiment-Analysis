@@ -82,7 +82,8 @@ Results
    ![image](https://github.com/user-attachments/assets/6a178a5c-76f8-473f-a670-afdb463e4fed)
 
    Deep Learning Model
-   - LSTM and BiLSTM has the best performance for the train and validation data with an accuracy of 76% and 72% followed by GRU and RNN whereas CNN does not perform as well as the other individual models
+   - LSTM and BiLSTM has the best performance for the train and validation data with an accuracy of 76% and 72% followed by GRU and RNN whereas CNN does not perform as well as the other individual models.
+   - BiLSTM is said to be the best is because it performs better with data of different patterns. Ability to capture bidirectional semantic dependencies.
 
    ![image](https://github.com/user-attachments/assets/ffc33b3c-b813-40a9-b9ce-3fc285bee63f)
    ![image](https://github.com/user-attachments/assets/bfac2261-62d6-4dae-b6b8-582d19151c7e)
