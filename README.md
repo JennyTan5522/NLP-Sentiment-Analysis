@@ -73,6 +73,8 @@ Results
    ![image](https://github.com/user-attachments/assets/80a9bc3d-f1d6-4858-baf3-93cf8e0b3f36)
 
 6. Covid Dataset Using Individual and Ensemble Model
+   - Voting model and Bagging model have the same testing accuracy but a slight difference in terms of the training accuracy and training time. Since the training time of Bagging model is shorter than the Voting model, the training time performance of Bagging model is better than Voting model.
+
    ![image](https://github.com/user-attachments/assets/d9b79173-df14-486a-b626-5ea8418e333d)
    ![image](https://github.com/user-attachments/assets/6a178a5c-76f8-473f-a670-afdb463e4fed)
 
