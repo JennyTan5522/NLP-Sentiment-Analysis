@@ -1,6 +1,6 @@
 About:
 - Sentiment analysis is one of the techniques that aims to classify textual data into positive, neutral, and negative labels. The study developed a predictive model that can be used to perform sentiment analysis predictions in various fields.  
-- This project works on sentiment analysis on Covid **Twitter** tweets and **iPhone** Twitter tweets by training on **General Tweets* from Twitter.
+- This project works on sentiment analysis on Covid **Twitter** tweets and **iPhone** Twitter tweets by training on **General Tweets** from Twitter.
 - Based on product review sentiment analysis, companies are able to understand the sentiment of the customers towards their products or services.
 - Covid review can be used to determine a human's emotional state and stability during the pandemic so that the government can determine the mental health of the people and take precautions if needed.
  
@@ -64,6 +64,7 @@ Results
    ![image](https://github.com/user-attachments/assets/e4709bfd-9823-4dbd-b051-739a24347583)
 
 4. Iphone Individual Model Testing Result
+   - The testing accuracy for all the models have a huge difference with the training accuracy. Mostly due to the unstructured and contains lots of noisy data as well as weak sentiment constraints, hence this makes machine difficult to analze and gain valuable pattern from the data, e.g. emoji ambiguity, uncertainty of word meaning, negation words.
 
     ![image](https://github.com/user-attachments/assets/bf11b8de-9cb5-4965-be1f-908877f184a8)
 
