@@ -55,6 +55,7 @@ Results
    ![image](https://github.com/user-attachments/assets/4584127b-65ac-4f55-9483-79f77951f34b)
 
 2. Covid Individual Model Testing Result
+   -  Extremely Randomized Trees is selected as the best individual sentiment classifier (Highest accuracy with the least training time)
 
    ![image](https://github.com/user-attachments/assets/987bd00e-9d45-4921-bd69-c70a3abcf1fe)
 
