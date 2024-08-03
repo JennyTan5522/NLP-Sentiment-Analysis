@@ -92,5 +92,15 @@ Results
    ![image](https://github.com/user-attachments/assets/ed19c6ed-6c27-4ed2-9a82-ca3810aee4fe)
    ![image](https://github.com/user-attachments/assets/1ecef24c-e10c-440b-9d39-fd54b0cdb2b3)
 
+   Ensemble Model
+   - Different meta-learners on training and validation data are evaluated only in terms of accuracy.
+
+   ![image](https://github.com/user-attachments/assets/cf285a5e-56b7-4720-9afc-8414abffb69d)
+
+   - Stacked RNN-LSTM-GRU with SVM model has better performance as compared to the Stacked RNN-LSTM-GRU with LR in terms of training set accuracy.
+
+   ![image](https://github.com/user-attachments/assets/8577305f-75dd-4997-b60a-67848bcacd39)
+
+
 
 Conclusion: Stacked RNN-LSTM-GRU with SVM has the best performance compared to the other two models on average
