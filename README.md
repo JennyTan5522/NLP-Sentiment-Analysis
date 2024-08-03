@@ -1,10 +1,9 @@
 About:
-- Sentiment analysis is one of the techniques that aims to classify textual data into positive, neutral, and negative labels. The study developed a predictive model that can be used in Natural Language Processing (NLP) to perform sentiment analysis predictions in various fields.  
+- Sentiment analysis is one of the techniques that aims to classify textual data into positive, neutral, and negative labels. The study developed a predictive model that can be used to perform sentiment analysis predictions in various fields.  
 - This project works on sentiment analysis on Covid **Twitter** tweets and **iPhone** Twitter tweets by training on **General Tweets* from Twitter.
 - Based on product review sentiment analysis, companies are able to understand the sentiment of the customers towards their products or services.
 - Covid review can be used to determine a human's emotional state and stability during the pandemic so that the government can determine the mental health of the people and take precautions if needed.
-- Purpose of using two datasets: To review how the models work in different data patterns and identify the most suitable sentiment classifier that can correctly classify the sentiment of a sentence in various fields.
-
+ 
 ------------------------------------------------------------------------------------------------------------------------------
 
 Dataset Description:
